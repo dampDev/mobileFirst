@@ -16,6 +16,8 @@
     --grey: #BABABA;
     --off-white: #FAF8F7;
     --just-white: #FFFFFF;
+
+    
 }
 *{
     box-sizing: border-box;
@@ -35,7 +37,13 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    /* gradiante del proyecto */
+    /* background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); */
+    /* gradiante personal */
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    
+
 }
 header img {
     width: 150px;
