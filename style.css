@@ -206,13 +206,49 @@ color: var(--bitcoin-orage);
     line-height: 1.7rem;
     color: #757575;
 }
+.currency-table--container .logo-bitcoin {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/Bitcoin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .currency-table--container .down {
     display: inline-block;
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background-image: url('./assets/icons/trending-down\ 1.svg');
+    background-image: url('./assets/icons/down.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.currency-table--container .up {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/up.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.currancy-table--date{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currancy-table--date p{
+    
+    font-size: 1.2rem;
+    font-weight: 1.5rem;
+    color: var(--warm-black);
+    font-weight: 300;
 }
