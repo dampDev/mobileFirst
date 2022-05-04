@@ -206,7 +206,7 @@ color: var(--bitcoin-orage);
     line-height: 1.7rem;
     color: #757575;
 }
-.currency-table--container .logo-bitcoin {
+/* .currency-table--container .logo-bitcoin {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -215,7 +215,7 @@ color: var(--bitcoin-orage);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 .currency-table--container .down {
     display: inline-block;
     width: 15px;
@@ -351,7 +351,7 @@ color: var(--bitcoin-orage);
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('./assets/imgs/bitcoinbabyx2.jpg');
+    background-image: url('./assets/imgs/bitcoinbabyx1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

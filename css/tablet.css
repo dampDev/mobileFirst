@@ -1,30 +1,26 @@
-/*
-1. Posicionamiento
-2. Modelode caja (box model)
-3. Tipografia.
-4. Visuales
-5. Otros
-*/
-*:root{
-    /* colores */
-    --bitcoin-orage: #F7931A;
-    --soft-orange: #FFE9D5;
-    --secondary-blue: #1A9AF7;
-    --soft-blue: #E7F5FF;
-    --warm-black: #201E1C;
-    --black: #282623;
-    --grey: #BABABA;
-    --off-white: #FAF8F7;
-    --just-white: #FFFFFF;
+.main-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
 
-    
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-html {
-    font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
+
+.plans-container--slider{
+    justify-content:center;
+}   
+
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/imgs/bitcoinbabyx2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
